@@ -1,0 +1,61 @@
+* {
+  font-family: Tahoma;
+  font-size: 40px;
+}
+
+.main1 {
+  display: flex;
+  flex-direction: row;
+}
+.main2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+.A {
+  display: flex;
+  width: 100px;
+  height: 150px;
+  border-left: 10px dotted #d0d0ff;
+  background-color: #eeeff2;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.B {
+  display: flex;
+  width: 100px;
+  height: 150px;
+  border-left: 10px dotted #d0d0ff;
+  background-color: #eeeff2;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.F {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  border-left: 10px dotted #d0d0ff;
+  background-color: #eeeff2;
+  padding-left: 10px;
+}
+.space {
+  height: 150px;
+  width: 10px;
+}
+
+.A:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+.B:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+.F:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
